@@ -1,0 +1,61 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	height: 1500px;
+}
+
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 22%;
+	left: 35%;
+}
+
+.pc{
+	width: 200px;
+	position: fixed;
+	top: 40%;
+	right: -135px;
+	transition: 1s;
+}
+
+.pc:hover{
+	right: 2pc;
+}
+
+.w{	
+	width: 200px;
+	position: fixed;
+	top: 55%;
+	right: -124px;
+	transition: 1s;
+}
+
+.w:hover{
+	right: 2pc;
+}
+
+.i{
+	width: 200px;
+	position: fixed;
+	top: 75%;
+	right: -130px;
+	transition: 1s;
+}
+.i:hover{
+	right: 2pc;
+}
